@@ -118,11 +118,11 @@
 							],
 							"outputs": [
 								{
-									"referenceName": "DS_SQL_TABLE_PARQUET_11",
+									"referenceName": "DQ_SQL_TABLE_PARQUET_NEW",
 									"type": "DatasetReference",
 									"parameters": {
 										"TableName": {
-											"value": "@pipeline().parameters.TableName",
+											"value": "@pipeline().parameters.TableName\n",
 											"type": "Expression"
 										}
 									}

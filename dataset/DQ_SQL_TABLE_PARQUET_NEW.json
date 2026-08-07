@@ -1,0 +1,32 @@
+{
+	"name": "DQ_SQL_TABLE_PARQUET_NEW",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"TableName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@concat(dataset().TableName,'_',formatDateTime(utcNow(),'yyyyMMddHHmmss'),'.parquet')",
+					"type": "Expression"
+				},
+				"folderPath": {
+					"value": "@concat(dataset().TableName, '/', formatDateTime(utcNow(), 'yyyy/MM/dd'))\n",
+					"type": "Expression"
+				},
+				"fileSystem": "RetailDB_dev"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
