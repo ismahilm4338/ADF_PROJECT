@@ -1,0 +1,15 @@
+{
+	"name": "migrationprojectisma",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "aabdb7e0-8bf9-4fb7-ac25-042c266b0db3",
+		"tenantId": "7067194d-10f5-4294-80af-bbdc4629e80a"
+	}
+}

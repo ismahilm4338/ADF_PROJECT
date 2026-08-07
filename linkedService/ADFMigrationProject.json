@@ -1,0 +1,22 @@
+{
+	"name": "ADFMigrationProject",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Connecting first SQL server in my DE journey",
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "localhost",
+			"database": "RetailDB_dev",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "ismahil_4338",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIwMjJjZWExNy0zOThjLTQ4NDUtYjk0Zi0wZDA1ZDNkNWYyNWMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimeIsma1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
