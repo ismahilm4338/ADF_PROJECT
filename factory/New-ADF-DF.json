@@ -1,0 +1,15 @@
+{
+	"name": "New-ADF-DF",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dc8b1881-6e0f-4791-bc31-0842a3229edf",
+		"tenantId": "7067194d-10f5-4294-80af-bbdc4629e80a"
+	}
+}
