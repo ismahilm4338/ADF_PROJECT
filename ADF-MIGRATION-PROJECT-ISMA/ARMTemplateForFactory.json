@@ -439,7 +439,7 @@
 							"value": "@concat(dataset().TableName, '/', formatDateTime(utcNow(), 'yyyy/MM/dd'))\n",
 							"type": "Expression"
 						},
-						"fileSystem": "retaildb_dev"
+						"fileSystem": "retaildbdev"
 					},
 					"compressionCodec": "snappy"
 				},
@@ -529,7 +529,7 @@
 							"value": "@concat(dataset().TableName, '/', formatDateTime(utcNow(), 'yyyy/MM/dd'))",
 							"type": "Expression"
 						},
-						"fileSystem": "retaildb_dev"
+						"fileSystem": "retaildbdev"
 					},
 					"compressionCodec": "snappy"
 				},
