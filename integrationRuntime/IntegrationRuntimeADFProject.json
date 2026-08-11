@@ -1,0 +1,6 @@
+{
+	"name": "IntegrationRuntimeADFProject",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
