@@ -12,10 +12,10 @@
 			"trustServerCertificate": true,
 			"authenticationType": "SQL",
 			"userName": "ismahil_4338",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIwMjJjZWExNy0zOThjLTQ4NDUtYjk0Zi0wZDA1ZDNkNWYyNWMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyOTU1Y2Q2NC01NzIwLTRkMTItYmI2Ny1lMWEyOTNhODRhYTAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
-			"referenceName": "integrationRuntimeIsma1",
+			"referenceName": "IntegrationRuntimeADFProject",
 			"type": "IntegrationRuntimeReference"
 		}
 	}
